@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.psm2018">
+
+    <uses-permission android:name="android.permission.SEND_SMS" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.flash" />
+    <uses-feature android:name="android.hardware.location.gps" />
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+
+    <!-- api key =AIzaSyBOc5DOFqL62PUmakL8UJiuCh3ksm3cGWc -->
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logopsm"
+        android:label="@string/app_name"
+        android:launchMode="singleInstance"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".SignIn">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Mainmenu"/>
+        <activity android:name=".Result" />
+        <activity android:name=".RegisterPage" />
+        <activity android:name=".Menu" />
+        <activity android:name=".HeartRateMonitor" />
+        <activity android:name=".LocationShare" />
+        <activity android:name=".HeartResult" />
+        <activity android:name=".Profile" />
+        <activity android:name=".ResultAb" />
+        <activity android:name=".History" />
+        <activity android:name=".GPSTracker"></activity>
+    </application>
+
+</manifest>
