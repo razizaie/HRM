@@ -7,22 +7,22 @@ Users can sign up their details and log in to this application.
 Also this application allow user to keep track their heartbeat rate history .
 
 # Module :
-1.	Registration Module.
+1. Registration Module.
 User needs to register first before use the application. The registration require username, password, contact no, address and emergency contact number.
 
-2.	Login Module.
+2. Login Module.
 User can login by entering a registered username and password. Doctor can access by using authorized id and password.
 
-3.	Check Heartbeat Module.
+3. Check Heartbeat Module.
 User can check their heartbeat rate and will display the heartbeat rate.
 
-4.	View History Module.
+4. View History Module.
 User can view their heartbeat history on this application. Doctor can view the user’s detail.
 
-5.	Manage User Information
+5. Manage User Information
 User can view and edit their user profile information in this module.
 
-6.	 Location Module
+6. Location Module
 If the user heartbeat is abnormal, the application will automatically ask the user 
 whether they want to send their current location to their emergency contact.
 
@@ -32,6 +32,7 @@ The external API's used was Google Maps API for getting longitude latitudes, Fir
 
 # How to setup the development environment:
 Inside App Gradle:
+```
       dependencies 
       {
           compile fileTree(dir: 'libs', include: ['*.jar'])
@@ -53,3 +54,4 @@ Inside App Gradle:
           compile 'com.google.android.gms:play-services:11.4.2'
           testCompile 'junit:junit:4.12'
       }
+```
