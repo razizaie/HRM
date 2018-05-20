@@ -1,12 +1,12 @@
 # HRM
 Heart Rate Monitor PSM/Mobile Project
 
-What is the project is all about?
+# What is the project is all about?
 This project is designed to allow android user to monitor their heartbeat. 
 Users can sign up their details and log in to this application. 
 Also this application allow user to keep track their heartbeat rate history .
 
-Module :
+# Module :
 1.	Registration Module.
 User needs to register first before use the application. The registration require username, password, contact no, address and emergency contact number.
 
@@ -26,11 +26,11 @@ User can view and edit their user profile information in this module.
 If the user heartbeat is abnormal, the application will automatically ask the user 
 whether they want to send their current location to their emergency contact.
 
-What libraries/external API's is used:
+# What libraries/external API's is used:
 The external API's used was Google Maps API for getting longitude latitudes, Firebase API for connection to database, and Messaging API for sending messages to other people through SMS.
 
 
-How to setup the development environment:
+# How to setup the development environment:
 Inside App Gradle:
       dependencies 
       {
